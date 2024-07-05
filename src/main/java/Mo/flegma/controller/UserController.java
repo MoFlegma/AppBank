@@ -23,7 +23,6 @@ public class UserController {
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
     public List<UserDto> listing(){
-        //list
         return userService.listing();
     }
 

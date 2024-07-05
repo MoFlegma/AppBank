@@ -1,2 +1,7 @@
-package Mo.flegma.entities;public enum TransactionType {
+package Mo.flegma.entities;
+
+public enum TransactionType {
+    DEPOSIT,
+    WITHDRAWAL,
+    TRANSFER
 }
